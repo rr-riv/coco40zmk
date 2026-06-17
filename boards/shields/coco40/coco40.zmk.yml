@@ -1,0 +1,14 @@
+
+file_format: "1"
+id: coco40
+name: coco40
+type: shield
+features:
+  - keys
+  - studio
+outputs:
+  - usb
+  - ble
+siblings:
+  - coco40_left
+  - coco40_right

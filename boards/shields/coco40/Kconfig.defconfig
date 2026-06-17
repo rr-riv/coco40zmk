@@ -1,0 +1,14 @@
+
+if SHIELD_COCO40_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "coco40"
+
+endif
+
+if SHIELD_COCO40_LEFT || SHIELD_COCO40_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif

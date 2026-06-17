@@ -1,0 +1,4 @@
+config SHIELD_COCO40_LEFT
+    def_bool $(shields_list_contains,coco40_left)
+config SHIELD_COCO40_RIGHT
+    def_bool $(shields_list_contains,coco40_right)
